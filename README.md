@@ -25,6 +25,27 @@ Crie no seu $HOME o arquivo oculto .ecmwfapirc (Unix/Linux) ou %USERPROFILE%\.ec
 
 Não esqueça de trocar o PATH no código.
 
+
+Se após trocar os PATHs, seja identificado o erro:
+
+**Traceback (most recent call last):**
+  **File "/home/mateusdiasnunes/Downloads/baixar_IFS_40KM.py", line 88, in <module>
+    client.retrieve( **
+  **File "/home/mateusdiasnunes/anaconda3/envs/mconda/lib/python3.11/site-packages/ecmwf/opendata/client.py", line 68, in retrieve
+    data_urls, target = self._get_urls( **
+                        
+Basta entrar no arquivo **client.py** e trocar a URL na linha que aparece:
+
+```
+self._url = "https://"
+```
+
+Para:
+
+```
+self._url = "https://data.ecmwf.int/forecasts/"
+```
+
 Deixei adicionado um gráfico gerado apartir dos dados gerados (pyNGL). 
 
 PS: Otimize esse código o quanto quiser. Não programo em python, não gosto de python.
