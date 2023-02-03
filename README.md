@@ -24,5 +24,6 @@ Crie no seu $HOME o arquivo oculto .ecmwfapirc (Unix/Linux) ou %USERPROFILE%\.ec
 
 Não esqueça de trocar o PATH no código.
 
+Deixei adicionado um gráfico gerado apartir dos dados gerados (pyNGL). 
 
 PS: Otimize esse código o quanto quiser. Não programo em python, não gosto de python.
