@@ -3,8 +3,9 @@
 
 ## Script para baixar dados diários de previsão de precipitação do modelo **IFS** - Integrated Forecast System | ECMWF
 
-Aqui é possível baixar gratuitamente os dados do modelo IFS **selecionando apenas a variável desejada**. 
-Isso se faz necessário pois se utilizarmos o caminho https://data.ecmwf.int/forecasts/
+Aqui é possível baixar gratuitamente os dados do modelo IFS **selecionando apenas a variável desejada**. Dminuindo o tempo e espaço.
+Isso se faz necessário pois ao utilizarmos o caminho https://data.ecmwf.int/forecasts/ só é possível variar por datas e baixar os 720 Gb por rodada.
+
 
 Não esqueça de instalar as bibliotecas necessárias, bem como realizar o cadastro no sistema do ECMWF. Registered access (recommended)
 No link abaixo é apresentada a explicação para o cadastro (mesmo cadastro válido para o CDSAPI do ERA-5)
