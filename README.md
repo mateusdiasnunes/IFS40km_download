@@ -12,10 +12,13 @@ https://github.com/ecmwf/ecmwf-api-client
 
 Your $HOME/.ecmwfapirc (Unix/Linux) or %USERPROFILE%\.ecmwfapirc (Windows) should look something like this:
 
+```
+
 {
     "url"   : "https://api.ecmwf.int/v1",
     "key"   : "XXXXXXXXXXXXXXXXXXXXXX",
     "email" : "john.smith@example.com"
 }
+```
 
-Não esqueça de trocar o PATH e inserir seu login e senha do cadastro no ONS.
+Não esqueça de trocar o PATH no código.
