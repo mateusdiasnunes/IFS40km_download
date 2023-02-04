@@ -26,7 +26,7 @@ Crie no seu $HOME o arquivo oculto .ecmwfapirc (Unix/Linux) ou %USERPROFILE%\.ec
 Não esqueça de trocar o PATH no código.
 
 
-Se após trocar os PATHs, seja identificado o erro:
+Se após trocar os PATHs, identificar o erro:
 
 **Traceback (most recent call last):**
   **File "/home/mateusdiasnunes/Downloads/baixar_IFS_40KM.py", line 88, in <module>
