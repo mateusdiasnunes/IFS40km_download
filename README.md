@@ -48,4 +48,4 @@ self._url = "https://data.ecmwf.int/forecasts/"
 
 Deixei adicionado um gráfico gerado apartir dos dados gerados pelo pyNGL (porque não sou obrigado a usar biblioteca do matlab aliada ao atraso do cartopy) 
 
-PS: Otimize esse código o quanto quiser. Não programo em python, não gosto de python.
+PS: Otimize esse código o quanto quiser. Desculpem a bagunça do código.
