@@ -9,7 +9,7 @@
 # ============================================================================================================
 
 from ecmwf.opendata import Client         # pip install ecmwf-api-client
-from datetime import datetime, timedelta  
+from datetime import datetime
 import time as t                         
 import os
 from cdo import Cdo
@@ -39,10 +39,6 @@ today       = datetime.today().strftime('%Y%m%d')    # date='20220125',
 presentTime = datetime.now().strftime('%H')          # hour=10
 
 dataformat  = datetime.today().strftime('%Y-%m-%d')  # date='2022-01-25' - To configure "settaxis" in CDO
-
-firstday    = datetime.today().strftime('%d%b12Z')   # date='20220125',
-
-dayofweek   = datetime.today().isoweekday()  #method isoweekday() 1 represents mondays e 7 sundays.
 
 #----------------------------------------------------------------------------------------------------------------------------------------
 # Define forecast time
